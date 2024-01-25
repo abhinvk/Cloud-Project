@@ -4,6 +4,7 @@ import re
 from flask_mysqldb import MySQL
 import mysql.connector
 from mysql import connector
+from collections.abc import Mapping
 
 # app = Flask(__name__)
 # app.secret_key = 'your secret key'
